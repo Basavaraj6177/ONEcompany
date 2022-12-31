@@ -1,0 +1,100 @@
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .table1 {
+    flex-direction: column;
+  }
+}
+.header{
+	padding: 10px;
+	background: rgb(222,133,31);
+background: linear-gradient(90deg, rgba(222,133,31,1) 26%, rgba(34,34,216,1) 59%, rgba(0,212,255,1) 100%);
+}
+.flex-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+grid-column-gap:10px;
+height: 30px;
+}
+.flex-container img{
+	width: 30px;
+	height: 30px;
+}
+.table1{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-column-gap:300px;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+body{
+	background-color: #91D8E4;
+}
+
+.sampurna img{
+	align-items: center;
+	
+   
+}
+.sampurna{
+	background-color: yellow;
+	text-align:   center;
+    line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+.electrician{
+	background-color: yellow;
+	text-align:   center;
+    line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.dress{
+	background-color: yellow;
+	text-align:   center;
+    line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.design{
+	background-color: yellow;
+	text-align:   center;
+    line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.tailor{
+	background-color: yellow;
+	text-align:   center;
+    line-height: 0px;
+	padding-bottom: 40px;
+	padding-top: 0px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
