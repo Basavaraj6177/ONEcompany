@@ -1,0 +1,215 @@
+.nav{
+  
+  margin-top: 10px;
+  padding: 5px;
+  shape-outside: circle(40%);
+}
+.topnav {
+  background-color: #ddd;
+  overflow: hidden;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #DEFCF9;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.table1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+   
+    grid-column-gap:250px;
+    height: 400px;
+    padding-left: 30px;
+    padding-right: 50px;
+    position: relative;
+
+}
+.table1 p{
+  font-family: 'Teko';
+
+}
+.table1 h1{
+  padding: 0;
+  
+}
+.table1 img{
+  margin-top: -30px;
+}
+@media screen and (max-width: 600px) {
+.table1{position: relative;
+flex-wrap: wrap;
+margin-bottom: 100px;
+}
+}
+
+.one h2 ,h1{
+  
+  line-height: 0px;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+
+}
+.main img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.birthday{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+
+  margin: 10px;
+  width: 300px;
+  
+}
+.babyshower{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+  
+}
+.babynaming{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.pooja{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.festival{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.house{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.anniversary{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.valentine{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+.manymore{
+  background: rgb(121,228,230);
+background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+  text-align:   center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 300px;
+}
+
