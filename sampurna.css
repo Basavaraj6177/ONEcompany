@@ -5,7 +5,7 @@
   shape-outside: circle(40%);
 }
 .topnav {
-  background-color: #ddd;
+  background-color: #333;
   overflow: hidden;
 
 
@@ -15,7 +15,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #DEFCF9;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,16 +23,20 @@
 
 
 }
+body{
+  background-color: background: rgb(204,126,226);
+background: linear-gradient(228deg, rgba(204,126,226,0.7936216723017332) 2%, rgba(80,193,193,0.36224912328212533) 49%, rgba(0,212,255,1) 100%);;
+}
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #A0E4CB;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  
   color: white;
 }
 
@@ -42,7 +46,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child)
   .topnav a.icon {
     float: right;
     display: block;
@@ -89,7 +93,7 @@
 @media screen and (max-width: 600px) {
 .table1{position: relative;
 flex-wrap: wrap;
-margin-bottom: 100px;
+margin-bottom: 00px;
 }
 }
 
@@ -120,7 +124,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   cursor: pointer;
 
   margin: 10px;
-  width: 300px;
+  width: 310px;
   
 }
 .babyshower{
@@ -132,8 +136,8 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
-  
+  width: 310px;
+
 }
 .babynaming{
   background: rgb(121,228,230);
@@ -144,7 +148,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .pooja{
   background: rgb(121,228,230);
@@ -155,7 +159,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .festival{
   background: rgb(121,228,230);
@@ -166,7 +170,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .house{
   background: rgb(121,228,230);
@@ -177,7 +181,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .anniversary{
   background: rgb(121,228,230);
@@ -188,7 +192,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .valentine{
   background: rgb(121,228,230);
@@ -199,7 +203,7 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
 .manymore{
   background: rgb(121,228,230);
@@ -210,6 +214,8 @@ background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 10
   padding-top: 40px;
   cursor: pointer;
   margin: 10px;
-  width: 300px;
+  width: 310px;
 }
+
+
 
