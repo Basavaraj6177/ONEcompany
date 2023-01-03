@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 .nav{
   
   margin-top: 10px;
@@ -26,13 +30,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #A0E4CB;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  
   color: white;
 }
 
@@ -42,7 +46,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) 
   .topnav a.icon {
     float: right;
     display: block;
@@ -63,17 +67,16 @@
     text-align: left;
   }
 }
+
 .table1{
   display: flex;
   flex-direction: row;
   align-items: center;
-   
-    grid-column-gap:250px;
-    height: 400px;
-    padding-left: 30px;
-    padding-right: 50px;
-    position: relative;
-
+  grid-column-gap:250px;
+  height: 400px;
+  padding-left: 30px;
+  padding-right: 50px;
+  position: relative;
 }
 .table1 p{
   font-family: 'Teko';
@@ -89,14 +92,23 @@
 @media screen and (max-width: 600px) {
 .table1{position: relative;
 flex-wrap: wrap;
-margin-bottom: 100px;
+margin-bottom: 200px;
 
+
+}
+}
+@media screen and (max-width:600px){
+.onelogo{
+  align-content: center;
+  margin-left: 70px;
 }
 }
 
 
 body{
-  background-color: #91D8E4;
+background: rgb(108,190,187);
+background: linear-gradient(94deg, rgba(108,190,187,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
+margin-right: 0;
 }
 
 .sampurna img{
@@ -106,62 +118,88 @@ body{
 .main{position: relative;
 align-items: center;
 text-align: center;
+
 }
 }
+.main{
+  display: flex;
+  flex-direction: column;
+
+  
+  align-items: center;
+}
+
+
 
 .sampurna{
-  background-color: yellow;
+  background: rgb(196,150,209);
+background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
   text-align:   center;
-    line-height: 0px;
+  padding: 40px;
   padding-bottom: 40px;
   padding-top: 40px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 800px;
   
-  margin-left: 100px;
-  margin-right: 100px;
-
+}
+.sampurna a{
+  text-decoration: none;
 }
 .electrician{
-  background-color: yellow;
+ background: rgb(196,150,209);
+background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
   text-align:   center;
-    line-height: 0px;
+  padding: 40px;
   padding-bottom: 40px;
-  padding-top: 0px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin-bottom: 50px;
+
+    
+  width: 800px;
+  
 }
 
 .dress{
-  background-color: yellow;
-  text-align:   center;
-    line-height: 0px;
-  padding-bottom: 40px;
-  padding-top: 0px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  background: rgb(196,150,209);
+background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
+  text-align: center;
+padding: 40px;
+padding-top: 40px;
+padding-bottom: 40px;
+cursor: pointer;
+margin-bottom: 50px;
+
+width: 800px;
 }
 
 .design{
-  background-color: yellow;
+background: rgb(196,150,209);
+background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
   text-align:   center;
-    line-height: 0px;
+  padding: 40px;
   padding-bottom: 40px;
-  padding-top: 0px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-top: 40px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 800px;
+  
 }
+.design img{
+  width: 700px;
+  height: 700px;
+}
+
 .tailor{
-  background-color: yellow;
+  background: rgb(196,150,209);
+background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);
   text-align:   center;
-    line-height: 0px;
+  padding: 40px;
   padding-bottom: 40px;
-  padding-top: 0px;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-top: 40px;
+  cursor: pointer;
+  width: 800px;
+  
 }
-
-
-
+  
