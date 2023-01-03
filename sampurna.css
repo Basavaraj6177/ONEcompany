@@ -93,7 +93,7 @@ background: linear-gradient(228deg, rgba(204,126,226,0.7936216723017332) 2%, rgb
 @media screen and (max-width: 600px) {
 .table1{position: relative;
 flex-wrap: wrap;
-margin-bottom: 00px;
+margin-bottom: 200px;
 }
 }
 
