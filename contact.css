@@ -137,6 +137,7 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     font-weight: 500;
     font-size: 1.8rem;
     color: #03001C;
+    margin-left: 10px;
 }
 
 
@@ -200,4 +201,15 @@ justify-content: center;
 
 .my-float{
     margin-top:16px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 200px;
+    max-height: 160px;
+
+
+  }
 }
