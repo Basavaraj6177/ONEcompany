@@ -1,0 +1,274 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #CDF0EA;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.8rem;
+    margin: .5rem;
+    margin-left: 35px;
+}
+
+.navbar-links {
+    height: 100%;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 240px;
+  
+}
+
+
+
+.social-icon img{
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  display: flex;
+}
+.social-icon{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    justify-content: center;
+}
+
+.footer{
+/*   background: rgb(232,113,58);*/
+/*background: linear-gradient(286deg, rgba(232,113,58,0.4964110644257703) 0%, rgba(124,171,181,1) 51%, rgba(105,242,240,0.4319852941176471) 100%);*/
+background-color: #E7F6F2;
+}
+.footer{ 
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: ;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+align-items: center;
+justify-content: center;
+
+}
+.column1{
+    justify-content: center;
+    display: flex;
+}
+.item1{
+    text-align: center;
+    max-width: 300px;
+}
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 300px;
+    align-items: center;
+    
+
+
+}
+
+.table1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.oon{
+    max-width: 500px;
+}
+
+.onelogo img{
+
+    max-width: 350px;
+    max-height: 280px ;
+}
+
+
+.soon{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: teko,sans-serif;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .table1{
+    position: relative;
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 200px;
+    max-height: 160px;
+
+
+  }
+}
+@media screen and (max-width:800px){
+  .social-icon img{
+     max-width: 30px;
+     max-height: 30px;
+     
+  }
+}
+
+
+.soon{
+    padding: 100px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: papyrus,fantasy;
+}
+.soon {
+  -webkit-animation: flicker 1.5s infinite;
+  text-align:center;
+
+
+}
+
+@-webkit-keyframes flicker{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+
+@media screen and (max-width:800px){
+    .soon h1{
+        font-size: .80em;
+        margin: 0;
+    }
+}
+
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
