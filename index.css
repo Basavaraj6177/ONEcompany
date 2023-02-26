@@ -274,7 +274,7 @@ body{
 
 
 
-.sampurna,.electrician,.dress,.design,.tailor{
+.sampurna,.electrician,.dress,.design,.tailor,.resin{
     background: #BBE1FA;
 /*  background: rgb(196,150,209);*/
 /*  background: linear-gradient(228deg, rgba(196,150,209,1) 26%, rgba(34,215,216,0.36224912328212533) 59%, rgba(0,212,255,1) 100%);*/
@@ -429,3 +429,14 @@ body{
     margin-top:16px;
 }
 
+
+@media screen and (max-width:800px){
+  .float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:110px;
+    right:20px;
+     
+  }
+}

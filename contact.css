@@ -213,3 +213,21 @@ justify-content: center;
 
   }
 }
+
+@media screen and (max-width:800px){
+    .float {
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:110px;
+      right:20px;
+       
+    }
+  }
+
+a{
+    text-decoration: none;
+    text-emphasis-color: black;
+    color: #6a49b7;
+
+} 

@@ -344,3 +344,13 @@ body{
 .my-float{
     margin-top:16px;
 }
+@media screen and (max-width:800px){
+  .float {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:110px;
+    right:20px;
+     
+  }
+}
