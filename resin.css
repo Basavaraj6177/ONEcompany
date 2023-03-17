@@ -126,7 +126,7 @@ body{
   .footer{
      background: rgb(232,113,58);
   background: linear-gradient(286deg, rgba(232,113,58,0.4964110644257703) 0%, rgba(124,171,181,1) 51%, rgba(105,242,240,0.4319852941176471) 100%);
-  background: #C6DCE4;
+  background: #97DEFF;
   }
   .footer{ 
   display: grid;
@@ -275,3 +275,92 @@ body{
          
       }
     }
+
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+      
+      }
+      .main img{
+        max-width: 300px;
+        max-height: 300px;
+      }
+      
+      .JK1,.JK2,.JK3,.JK4,.JK5,.JK6,.JK7,.JK8,.JK9,.JK10,.JK11,.JK12,.JK13,.JK14,.JK15{
+      
+        background: rgb(121,228,230);
+      background: linear-gradient(0deg, rgba(121,228,230,1) 0%, rgba(209,150,231,1) 100%);
+      background: #C9EEFF;
+    
+        text-align:   center;
+        padding: 40px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        
+      
+        margin: 10px;
+        width: 310px;
+        border-radius: 20px;
+        
+      }
+      .main h1{
+        text-decoration: none;
+        color: #00425A;
+        font-family:  Big Caslon,serif;
+        
+        font-weight: 50%;
+      
+      }
+      
+      .main h1:hover{
+        color: #1C82AD;
+        text-shadow:0px 0px 30px #FFFBAC;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+      }
+
+      /*how it works*/
+.list img{
+    max-width: 50px;
+    max-height: 50px;
+    
+  }
+  
+  .list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  }
+  
+  .how h1{
+    text-align: center;
+  
+  }
+  
+  .list p{
+    font-size: 1rem;
+  }
+  .how{
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    
+    
+  }
+  
